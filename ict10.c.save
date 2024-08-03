@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int n,i = 1,s = 0;
+    printf("enter the value of total numbers :");
+    scanf("%d",&n);
+    while(i <= n)
+    {
+        s = s+i;
+        i++:
+    }
+    printf("")
+    return 0;
+}

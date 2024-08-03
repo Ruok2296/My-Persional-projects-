@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int stat,end;
+    printf("give me the staring point :");
+    scanf("%d",&stat);
+    printf("give me the ending point :");
+    scanf("%d",&end);
+    
+    if(stat == 0 || stat == 1){
+        printf("invailed input !");
+    }
+        for(int i = stat;i<=end;i++){
+            for(int j = 2;j <i;j++){
+                if(i%j == 0){
+                count++;
+                }
+            }
+            if(count != 0){
+                printf("%d is not prime \n",i);
+
+            }else{
+                printf("%d is prime \n",i);
+            }
+
+
+        }
+    return 0;
+}

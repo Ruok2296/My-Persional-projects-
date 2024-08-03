@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+int al[5]={1,2,3,4,5};
+ for(int i = 0;i<5;i++){
+
+    printf("%d ",al[i]);
+
+}printf("\n");
+for(int j = 4;j>=0 ;j--){
+   printf("%d ",a[j]);
+}
+    return 0;
+}
+// 0.022 sgry4yrg4yrgy4ygryrgrgr0.016 s

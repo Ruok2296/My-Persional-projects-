@@ -1,0 +1,61 @@
+#include <stdio.h>
+void rec(int n,int last);
+void recl(int n,int last,int k);
+
+int main()
+{
+    printf("#");
+    printf("\n");
+    int n = 5;
+    int k =2;
+    int last =5;
+
+    rec(n,last,);
+    k--;
+    printf("\n");
+    recl(n,last,k);
+
+
+
+
+
+    return 0;
+}
+void rec(int n,int last,int l)
+{
+
+    for(int i = 1; i <n-(k-l); i++) {
+
+        if(i == last-2) {
+            break;
+
+        }
+        printf("#");
+    }
+
+
+}
+void recl(int n,int last,int k)
+{
+    for(int i =1; i <n-k; i++) {
+        if(i == last) {
+            break;
+
+        }
+        printf("#");
+
+    }
+
+
+}
+/*#include <stdio.h>
+
+int main() {
+printf("#");
+printf("\n");
+printf("##");
+printf("\n");
+printf("###");
+    return 0;
+}
+*/

@@ -1,0 +1,18 @@
+#include <stdio.h>
+union data{
+    float real;
+
+}data;
+void call(union data*data1){
+data1.real = 55.5;
+printf("in function is ")
+
+}
+int main() {
+    data.real = 44.5;
+    printf("real before function is %.2f",data.real);
+    call(&data);
+    printf("real after caling is %.2f",data.real);
+    
+    return 0;
+}

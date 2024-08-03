@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<stdlib.h>
+int main() {
+    int n = 7;
+    int m ;
+    scanf("%d",&m);
+    int *ptr;
+    //ptr = (int*)malloc(m*sizeof(int));
+    ptr = (int*)melloc(m*sizeof(int));
+    for(int i = 0;i <= m ;i++){
+        ptr[i]=n*i;
+        printf("%d",ptr[i]);
+
+    }
+    return 0;
+}

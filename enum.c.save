@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+    enum {Fri,Sat,Sun,Mon,tue,Wed,Thu}Hol_day,Week_day;
+    printf("fri day is %d",fri)
+    return 0;
+}

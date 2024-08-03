@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+        char w[]="Rupok";
+        char s=' ';
+        
+        int sp = 0;
+        int x = sizeof(w)/sizeof(w[0])-1;
+    printf("%s",w);
+        printf("%c%s\n",s,w);
+            printf("%c%c%s\n",s,w);
+    return 0;
+}

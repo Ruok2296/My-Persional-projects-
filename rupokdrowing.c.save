@@ -1,0 +1,57 @@
+#include <stdio.h>
+void recl(int n,int last,int k,int l);
+void rec(int n,int last,int k,int l);char s =' ';
+
+int main()
+{
+
+    printf("%c",s);
+    printf("rupok");
+    printf("\n");
+    int n = 7;
+    const int k =3;
+    int last =7;
+    const int l =3;
+    printf("%c%c",s,s);
+    printf("rupok");
+    printf("\n");
+    rec(n,last,(k-0),l);
+printf("rupok");
+    printf("\n");
+    rec(n,last,(k-1),(l-1));
+printf("rupok");
+    printf("\n");
+    rec(n,last,(k-2),(l-3));
+printf("rupok");
+    printf("\n");
+    recl(n,last,k,l);
+printf("rupok");
+
+
+
+    return 0;
+}void recl(int n,int last,int k,int l)
+{
+
+    for(int i =1; i <n-(k-l); i++) {
+        if(i == last) {
+            break;
+
+        }
+        printf("%c",s);
+
+    }
+
+}void rec(int n,int last,int k,int l)
+{
+    for(int i = 1; i<n-k; i++) {
+
+        if(i == last-l) {
+            break;
+
+        }
+        printf("%c",s);
+    }
+
+
+}
